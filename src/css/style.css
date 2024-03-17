@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 700px;
+  height: 600px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  background:
+    repeating-linear-gradient(
+      transparent,transparent 25px, gray 27px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,transparent 25px, gray 27px
+    );
+}
+
+.head {
+  display: flex;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 30px;
+  background-color: gainsboro;
+}
+
+.messages-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+}
+
+.incoming {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: black;
+  font-size: 20px;
+}
+
+.messages {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  overflow-y: scroll;
+  font-size: 14px;
+}
+
+.messages::-webkit-scrollbar {
+  width: 0;
+}
+
+.message {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+
+  margin-right: 20px;
+  height: 20px;
+  padding: 15px;
+  border: 1px solid black;
+  background-color: white;
+  color: grey;
+  margin-bottom: -1px;
+}
+
+.email {
+  display: flex;
+  width: 40%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.hello {
+  display: flex;
+  overflow: hidden;
+  width: 40%;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.date {
+  width: 25%;
+  position: relative;
+  white-space: nowrap;
+}
+
+
+
+
+
+.input {
+  height: 40px;
+  width: 100px;
+}
