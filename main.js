@@ -2737,7 +2737,8 @@ const shorting = new _Shorting__WEBPACK_IMPORTED_MODULE_2__["default"]();
 const container = document.querySelector('.container');
 
 
-const server ='http://localhost:8080'
+// const server ='http://localhost:8080'
+const server ='https://rxjs-backend-cyb5.onrender.com'
 
 
 const form = new _BindToDom__WEBPACK_IMPORTED_MODULE_0__["default"](container);
