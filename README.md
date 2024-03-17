@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/0a7n7bi66p2vewh8?svg=true)](https://ci.appveyor.com/project/Stimul88/rxjs-backend)
+[![Build status](https://ci.appveyor.com/api/projects/status/bnovtwvdkschiva1?svg=true)](https://ci.appveyor.com/project/Stimul88/rxjs)
 
 страница сайта: https://stimul88.github.io/RxJS
 
