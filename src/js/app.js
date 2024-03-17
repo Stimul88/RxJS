@@ -16,8 +16,8 @@ const shorting = new Shorting();
 const container = document.querySelector('.container');
 
 
-// const server ='http://localhost:7070'
-const server ='https://vercel.com/stimul88s-projects'
+// const server ='http://localhost:8080'
+const server ='https://rxjs-backend-cyb5.onrender.com'
 
 
 const form = new BindToDom(container);
